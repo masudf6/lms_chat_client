@@ -1,3 +1,5 @@
+// eslint-disable-next-line react-hooks/exhaustive-deps
+
 import { useState, useEffect } from "react"
 import axios from "axios"
 import {
@@ -35,6 +37,7 @@ function App() {
   const [files, setFiles] = useState([])
   const [selectedFile, setSelectedFile] = useState("")
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchSessions()
   }, [])
