@@ -22,7 +22,7 @@ import DeleteIcon from "@mui/icons-material/Delete"
 
 import FileSidebar from "./FileSidebar"
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL
+const API_BASE_URL = "https://lms-chat-api-h3cwb0buddhebfbc.australiasoutheast-01.azurewebsites.net"
 
 function App() {
   const userId = "masud"
